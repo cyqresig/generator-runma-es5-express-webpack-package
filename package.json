@@ -1,0 +1,27 @@
+{
+  "name": "generator-runma-es5-express-webpack-package",
+  "version": "1.0.1",
+  "description": "A generator package for runma that contains es5, express, webpack and gulp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyqresig/generator-runma-es5-express-webpack-package.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "HISAME SHIZUMARU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyqresig/generator-runma-es5-express-webpack-package/issues"
+  },
+  "homepage": "https://github.com/cyqresig/generator-runma-es5-express-webpack-package#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "yeoman-generator": "^1.0.1",
+    "yosay": "^1.2.1"
+  }
+}
