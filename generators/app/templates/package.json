@@ -1,0 +1,19 @@
+{
+  "name": "runma-es5-express-webpack-package",
+  "version": "1.0.0",
+  "description": "A es5-express-webpack-package for runma",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon server.js",
+    "wds&livereload": "gulp",
+    "production": "webpack --config webpack.production.config.js -p & cross-env NODE_ENV=production node server.js",
+    "server": "cross-env NODE_ENV=production pm2 start server.js -i max",
+    "dev-server": "cross-env NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
